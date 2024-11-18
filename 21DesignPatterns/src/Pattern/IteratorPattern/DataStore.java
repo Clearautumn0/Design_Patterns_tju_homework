@@ -1,4 +1,4 @@
-package Pattern;
+package Pattern.IteratorPattern;
 
 import java.lang.classfile.constantpool.PackageEntry;
 import java.util.List;

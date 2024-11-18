@@ -3,9 +3,9 @@ package Demo;
 import java.util.ArrayList;
 import java.util.List;
 
-import Pattern.DataStore;
-import Pattern.Iterator;
-import Pattern.PageIterator;
+import Pattern.IteratorPattern.DataStore;
+import Pattern.IteratorPattern.Iterator;
+import Pattern.IteratorPattern.PageIterator;
 
 public class IteratorDemo {
     public static void main(String[] args) {
