@@ -1,4 +1,4 @@
-package Pattern.AdapterPattern;
+package Pattern.AdapterPattern.Classifier;
 
 public class KNNClassifier implements ClassifierAdapter {
 

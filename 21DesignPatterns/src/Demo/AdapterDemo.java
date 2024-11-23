@@ -1,17 +1,18 @@
 package Demo;
 
-import Pattern.AdapterPattern.BayesClassifier;
-import Pattern.AdapterPattern.ClassifierAdapter;
 import Pattern.AdapterPattern.Database;
-import Pattern.AdapterPattern.DecTreeClassifier;
 import Pattern.AdapterPattern.EncryptionAdapterClass;
 import Pattern.AdapterPattern.EncryptionAdapterObject;
 import Pattern.AdapterPattern.EncryptionTarget;
-import Pattern.AdapterPattern.KNNClassifier;
 import Pattern.AdapterPattern.ThirdPartyEncryptor;
+import Pattern.AdapterPattern.Classifier.BayesClassifier;
+import Pattern.AdapterPattern.Classifier.ClassifierAdapter;
+import Pattern.AdapterPattern.Classifier.DecTreeClassifier;
+import Pattern.AdapterPattern.Classifier.KNNClassifier;
 
 public class AdapterDemo {
     public static void main(String[] args) {
+        // 分类器实例 作业二
         ClassifierAdapter classifierAdapter1 = new BayesClassifier();
         classifierAdapter1.classify();
         ClassifierAdapter classifierAdapter2 = new DecTreeClassifier();
